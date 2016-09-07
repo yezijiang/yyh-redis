@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<paramtables>
+	<table tableName="T_USER" 
+		primaryKeys="USER_ID"/>
+	<table tableName="T_OSS_TAG" 
+		primaryKeys="TAG_CODE,DELETED_FLG"/>
+	<table tableName="T_OSS_INTF_PARAM" 
+		primaryKeys="SERVICE_CODE,OPERATION_CODE,DELETED_FLG"/>	
+	<table tableName="T_CUST_MCHD_PARAMETER" 
+		primaryKeys="P_CODE,TYPE_CODE"/>	
+</paramtables>
